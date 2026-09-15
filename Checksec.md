@@ -7,9 +7,11 @@ sudo apt install checksec
 
 **example:
 
-![](./Checksec-1789468822874.webp)
+![](./Checksec-1789470691636.webp)
 
 in these suceeding test, inspections will be carried out between deformed processes and ./baseline
+
+**
 
 **canary_off:
 
