@@ -59,13 +59,13 @@ The binary's functions possess a base of 0x555555554000
 
 **NO Symbols:
 
-![](./Checksec-1789471947724.webp)
+![](img/Checksec-1789471947724.webp)
 
 Symbols let debugger knows where a function is a located, without symbols, debugger must add it themselve
 
-![](./Checksec-1789471930151.webp)
+![](img/Checksec-1789471930151.webp)
 
-a process that remains its symbols is a saving 
+a process that remains its symbols is a saving grace for reading comprehession
 
 ```
 - **RELRO:** relocation sections receive read-only protection; full RELRO also uses immediate binding.
