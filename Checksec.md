@@ -11,9 +11,11 @@ sudo apt install checksec
 
 in these suceeding test, inspections will be carried out between deformed processes and ./baseline
 
-**
+**No RELRO:
 
-**canary_off:
+
+
+**Canary_off:
 
 ![](./Checksec-1789469475702.webp)
 
