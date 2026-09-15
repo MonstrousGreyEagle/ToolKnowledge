@@ -17,7 +17,11 @@ in these suceeding test, inspections will be carried out between deformed proces
 
 RELRO protect rellocation sections (such as got table) by making them un-writable (read only)
 
-With this protection off, some sensitive dispatch poij
+With this protection off, some sensitive dispatch point can be overwritten for arbitary execution
+
+![](./Checksec-1789470921431.webp)
+
+RELRO on
  
 **Canary_off:
 
