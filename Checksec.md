@@ -59,6 +59,8 @@ The binary's functions possess a base of 0x555555554000
 
 **NO Symbols
 
+![](./Checksec-1789471930151.webp)
+
 ```
 - **RELRO:** relocation sections receive read-only protection; full RELRO also uses immediate binding.
 - **Canary:** stack-protector-related symbols were detected.
