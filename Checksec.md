@@ -13,7 +13,9 @@ in these suceeding test, inspections will be carried out between deformed proces
 
 **No RELRO:
 
+![](./Checksec-1789470830341.webp)
 
+REL
 
 **Canary_off:
 
