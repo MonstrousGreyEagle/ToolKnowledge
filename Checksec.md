@@ -15,6 +15,10 @@ sudo apt install checksec
 
 no canary protecting stack, return address is at 0x7fffffffdad8
 
+![](./Checksec-1789469568165.webp)
+
+an example with canary enabled, canary is at 0x7fffffffdab8 while ret addr is at 0x7fffffffdad0
+
 ```
 - **RELRO:** relocation sections receive read-only protection; full RELRO also uses immediate binding.
 - **Canary:** stack-protector-related symbols were detected.
