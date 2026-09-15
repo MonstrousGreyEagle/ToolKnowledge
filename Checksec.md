@@ -8,6 +8,14 @@ sudo apt install checksec
 example:
 
 ```
+thtad@thtad-HP-240-G8-Notebook-PC:~/Desktop/misc/handlab/build$ checksec --dir=.
+RELRO           STACK CANARY      NX            PIE             RPATH      RUNPATH    Symbols      	FORTIFY	Fortified	Fortifiable   Filename
+Full RELRO      Canary found      NX enabled    PIE enabled     No RPATH   RUNPATH     44 Symbols	  Yes	2		2		./baseline
+Full RELRO      Canary found      NX enabled    PIE enabled     RPATH     No RUNPATH   40 Symbols	  Yes	1		2		./rpath
+Full RELRO      Canary found      NX enabled    PIE enabled     No RPATH   RUNPATH     44 Symbols	  No	0		2		./fortify_off
+Full RELRO      Canary found      NX enabled    PIE enabled     No RPATH   RUNPATH     40 Symbols	  Yes	1		2		./runpath
+Full RELRO      No canary found   NX enabled    PIE enabled     No RPATH   RUNPATH     39 Symbols	  Yes	1		2		./canary_off
+Full RELRO      Canary found      NX disabled   PIE enabled     No RPATH   RUNPATH     40 Symbols	  Yes	1		2		./nx_off
 
 ```
 
