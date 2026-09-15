@@ -9,6 +9,8 @@ sudo apt install checksec
 
 ![](./Checksec-1789468822874.webp)
 
+in these suceeding test, inspections will be carried out between deformed processes and ./baseline
+
 **canary_off:
 
 ![](./Checksec-1789469475702.webp)
@@ -29,7 +31,7 @@ NX disable executable stack
 
 ![](./Checksec-1789469843253.webp)
 
-stack is not executable in 
+stack is not executable in process with nx
 
 ```
 - **RELRO:** relocation sections receive read-only protection; full RELRO also uses immediate binding.
