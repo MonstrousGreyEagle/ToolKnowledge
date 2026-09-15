@@ -9,7 +9,9 @@ example:
 
 ![](./Checksec-1789468822874.webp)
 
+**canary_off:**
 
+![](./Checksec-1789469475702.webp)
 
 ```
 - **RELRO:** relocation sections receive read-only protection; full RELRO also uses immediate binding.
