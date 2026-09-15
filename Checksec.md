@@ -2,5 +2,6 @@
 To install:
 
 ```
-sudo apt instal
+sudo apt install checksec
 ```
+
