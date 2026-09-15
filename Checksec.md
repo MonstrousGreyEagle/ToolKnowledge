@@ -57,7 +57,7 @@ Without PIE, the binary's functions' address will be exact between each run time
 
 The binary's functions possess a base of 0x555555554000
 
-
+**NO Symbols
 
 ```
 - **RELRO:** relocation sections receive read-only protection; full RELRO also uses immediate binding.
