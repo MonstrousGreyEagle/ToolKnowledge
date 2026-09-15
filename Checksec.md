@@ -5,13 +5,15 @@ To install:
 sudo apt install checksec
 ```
 
-example:
+**example:
 
 ![](./Checksec-1789468822874.webp)
 
-**canary_off:**
+**canary_off:
 
 ![](./Checksec-1789469475702.webp)
+
+no canary protecting stack, return address is at 0x7fffffffdad8
 
 ```
 - **RELRO:** relocation sections receive read-only protection; full RELRO also uses immediate binding.
