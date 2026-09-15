@@ -43,6 +43,12 @@ NX disable executable stack
 
 ![](./Checksec-1789469843253.webp)
 
+**No PIE:
+
+![](./Checksec-1789471435447.webp)
+
+PIE make the base of the 
+
 stack is not executable in process with nx
 
 ```
