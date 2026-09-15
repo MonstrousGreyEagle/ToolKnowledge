@@ -15,8 +15,10 @@ in these suceeding test, inspections will be carried out between deformed proces
 
 ![](./Checksec-1789470830341.webp)
 
-REL
+RELRO protect rellocation sections (such as got table) by making them un-writable (read only)
 
+With this protection off, some sensitive dispatch poij
+ 
 **Canary_off:
 
 ![](./Checksec-1789469475702.webp)
