@@ -43,13 +43,15 @@ NX disable executable stack
 
 ![](./Checksec-1789469843253.webp)
 
+stack is not executable in process with nx
+
 **No PIE:
 
 ![](./Checksec-1789471435447.webp)
 
-PIE make the base of the 
+PIE make the base of the binary's functions randomized
 
-stack is not executable in process with nx
+Without PIE, the binary's functions' address will be exact between each run time
 
 ```
 - **RELRO:** relocation sections receive read-only protection; full RELRO also uses immediate binding.
