@@ -19,7 +19,9 @@ no canary protecting stack, return address is at 0x7fffffffdad8
 
 an example with canary enabled, canary is at 0x7fffffffdab8 while ret addr is at 0x7fffffffdad8
 
-also because of no canary, meaning that each function doesnt have own canary to protect itself, functions in the 
+also because of no canary, meaning that each function doesnt have own canary to protect itself, functions in the process collapse onto main as there isnt need for the compiler to seperate the functions ( which is the need for seperate canary in this example )
+
+
 
 ```
 - **RELRO:** relocation sections receive read-only protection; full RELRO also uses immediate binding.
