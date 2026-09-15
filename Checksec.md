@@ -25,7 +25,11 @@ also because of no canary, meaning that each function doesnt have own canary to 
 
 ![](./Checksec-1789469784736.webp)
 
-NX disable 
+NX disable executable stack
+
+![](./Checksec-1789469843253.webp)
+
+stack is not executable in 
 
 ```
 - **RELRO:** relocation sections receive read-only protection; full RELRO also uses immediate binding.
