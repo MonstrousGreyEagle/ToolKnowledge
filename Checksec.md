@@ -17,7 +17,9 @@ no canary protecting stack, return address is at 0x7fffffffdad8
 
 ![](./Checksec-1789469568165.webp)
 
-an example with canary enabled, canary is at 0x7fffffffdab8 while ret addr is at 0x7fffffffdad0
+an example with canary enabled, canary is at 0x7fffffffdab8 while ret addr is at 0x7fffffffdad8
+
+also because of no canary, meaning that each function doesnt have own canary to protect itself, functions in the 
 
 ```
 - **RELRO:** relocation sections receive read-only protection; full RELRO also uses immediate binding.
