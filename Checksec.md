@@ -7,7 +7,7 @@ sudo apt install checksec
 
 **example:
 
-![](./Checksec-1789470691636.webp)
+![](./Checksec-1789471276682.webp)
 
 in these suceeding test, inspections will be carried out between deformed processes and ./baseline
 
