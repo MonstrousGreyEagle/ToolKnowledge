@@ -57,9 +57,15 @@ Without PIE, the binary's functions' address will be exact between each run time
 
 The binary's functions possess a base of 0x555555554000
 
-**NO Symbols
+**NO Symbols:
+
+![](./Checksec-1789471947724.webp)
+
+Symbols let debugger knows where a function is a located, without symbols, debugger must add it themselve
 
 ![](./Checksec-1789471930151.webp)
+
+a process that remains its symbols is a saving 
 
 ```
 - **RELRO:** relocation sections receive read-only protection; full RELRO also uses immediate binding.
