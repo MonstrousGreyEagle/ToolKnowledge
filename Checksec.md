@@ -53,6 +53,10 @@ PIE make the base of the binary's functions randomized
 
 Without PIE, the binary's functions' address will be exact between each run time
 
+![](./Checksec-1789471523879.webp)
+
+The binary's functions possess a base of 0x555555554000
+
 ```
 - **RELRO:** relocation sections receive read-only protection; full RELRO also uses immediate binding.
 - **Canary:** stack-protector-related symbols were detected.
